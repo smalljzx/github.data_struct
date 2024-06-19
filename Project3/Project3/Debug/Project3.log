@@ -1,0 +1,9 @@
+﻿  test1.cpp
+E:\code\C\Project3\Project3\stack.h(68): warning C4715: “getTop”: 不是所有的控件路径都返回值
+test1.obj : error LNK2005: "int __cdecl Pop(struct _SqStack *,char *)" (?Pop@@YAHPAU_SqStack@@PAD@Z) 已经在 stack.obj 中定义
+test1.obj : error LNK2005: "char __cdecl getTop(struct _SqStack *)" (?getTop@@YADPAU_SqStack@@@Z) 已经在 stack.obj 中定义
+test1.obj : error LNK2005: "int __cdecl initStack(struct _SqStack *)" (?initStack@@YAHPAU_SqStack@@@Z) 已经在 stack.obj 中定义
+test1.obj : error LNK2005: "int __cdecl isEmpty(struct _SqStack *)" (?isEmpty@@YAHPAU_SqStack@@@Z) 已经在 stack.obj 中定义
+test1.obj : error LNK2005: "int __cdecl isFull(struct _SqStack *)" (?isFull@@YAHPAU_SqStack@@@Z) 已经在 stack.obj 中定义
+test1.obj : error LNK2005: "int __cdecl push(struct _SqStack *,char)" (?push@@YAHPAU_SqStack@@D@Z) 已经在 stack.obj 中定义
+E:\code\C\Project3\Debug\Project3.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
